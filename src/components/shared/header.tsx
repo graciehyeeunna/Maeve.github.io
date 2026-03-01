@@ -34,7 +34,7 @@ const Header = ({ className = "" }: IHeaderProps) => {
         {/* Left: Email - Hidden on mobile, shown on md and up */}
         <div className="hidden md:flex justify-start">
           <a
-            href="mailto:gracie.hna@gmail.com"
+            href="mailto:maeve.hyeeunna@gmail.com"
             className="text-sm text-gray-500 hover:text-gray-900 transition-colors no-underline font-inter"
           >
             gracie.hna@gmail.com
@@ -44,7 +44,7 @@ const Header = ({ className = "" }: IHeaderProps) => {
         {/* Center: Name (Logo) - Left aligned on mobile, center on md */}
         <div className="flex justify-start md:justify-center">
           <Link href="/" className="text-lg md:text-xl font-bold italic tracking-tight text-gray-900 no-underline font-cormorant">
-            Gracie Hyeeun Na
+            Maeve
           </Link>
         </div>
 

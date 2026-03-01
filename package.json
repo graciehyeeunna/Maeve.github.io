@@ -1,9 +1,9 @@
 {
-  "name": "graciehyeeunna",
+  "name": "maeve",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://graciehyeeunna.github.io",
+  "homepage": "https://Maeve.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
