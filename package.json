@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Maeve.github.io",
+  "homepage": "https://maeve-hyeeunna.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
