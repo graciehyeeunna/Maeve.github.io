@@ -37,7 +37,7 @@ const Header = ({ className = "" }: IHeaderProps) => {
             href="mailto:maeve.hyeeunna@gmail.com"
             className="text-sm text-gray-500 hover:text-gray-900 transition-colors no-underline font-inter"
           >
-            gracie.hna@gmail.com
+            maeve.hyeeunna@gmail.com
           </a>
         </div>
 
