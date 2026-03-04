@@ -1129,6 +1129,21 @@ export const ARCHIVE_DATA: IArchiveData = {
           rawText: 'Ella Young – How Can I Stay [single album], Epiphany Records, 레코딩 참여',
         },
         {
+          id: 'rec_chloe_sleepwalk',
+          date: '2026-02-20',
+          venue: null,
+          room: null,
+          role: 'Recording',
+          badge: null,
+          title: 'Chloe Cho – Sleepwalk',
+          description: '레코딩 참여',
+          links: [
+            'https://www.youtube.com/watch?v=F89_5CHIxE8',
+          ],
+          notes: null,
+          rawText: 'Chloe Cho - Sleepwalk, 레코딩 참여',
+        },
+        {
           id: 'rec_hsiyuan_heart_oclock',
           date: '2025-08-22',
           venue: null,
@@ -1142,7 +1157,7 @@ export const ARCHIVE_DATA: IArchiveData = {
             'https://music.apple.com/us/album/heart-oclock/1831977127?i=1831977131',
           ],
           notes: null,
-          rawText: 'Hsiyuan (張熙芫) – Heart O\'clock, 레코딩 참여',
+          rawText: 'Hsiyuan (張熙芫) – Heart O'clock',
         },
         {
           id: 'rec_berklee_taiwanese_graduates_kite',
