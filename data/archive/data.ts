@@ -1157,7 +1157,7 @@ export const ARCHIVE_DATA: IArchiveData = {
             'https://music.apple.com/us/album/heart-oclock/1831977127?i=1831977131',
           ],
           notes: null,
-          rawText: 'Hsiyuan (張熙芫) – Heart O'clock',
+          rawText: 'Hsiyuan (張熙芫) – Heart O\'clock',
         },
         {
           id: 'rec_berklee_taiwanese_graduates_kite',
