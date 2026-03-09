@@ -25,7 +25,7 @@ export default function SplashScreen({ onComplete }: IProps) {
     // 1. 텍스트 페이드 인 시작 (0.5초 대기 후)
     const textInTimer = setTimeout(() => {
       setTextVisible(true);
-    }, 300);
+    }, 200);
 
     // 2. 텍스트 페이드 아웃 시작 (2.5초 후)
     const textOutTimer = setTimeout(() => {
