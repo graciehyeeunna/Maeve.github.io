@@ -30,7 +30,7 @@ export default function SplashScreen({ onComplete }: IProps) {
     // 2. 텍스트 페이드 아웃 시작 (2.5초 후)
     const textOutTimer = setTimeout(() => {
       setTextVisible(false);
-    }, 1500);
+    }, 1400);
 
     // 3. 전체 배경 페이드 아웃 및 종료 (3.5초 후)
     const splashOutTimer = setTimeout(() => {
@@ -41,7 +41,7 @@ export default function SplashScreen({ onComplete }: IProps) {
         onComplete();
       }, 500);
       return () => clearTimeout(finalTimer);
-    }, 2000);
+    }, 1900);
 
     return () => {
       clearTimeout(textInTimer);
