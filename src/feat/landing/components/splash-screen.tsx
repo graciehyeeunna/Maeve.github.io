@@ -25,12 +25,12 @@ export default function SplashScreen({ onComplete }: IProps) {
     // 1. 텍스트 페이드 인 시작 (0.5초 대기 후)
     const textInTimer = setTimeout(() => {
       setTextVisible(true);
-    }, 500);
+    }, 300);
 
     // 2. 텍스트 페이드 아웃 시작 (2.5초 후)
     const textOutTimer = setTimeout(() => {
       setTextVisible(false);
-    }, 1000);
+    }, 1600);
 
     // 3. 전체 배경 페이드 아웃 및 종료 (3.5초 후)
     const splashOutTimer = setTimeout(() => {
@@ -41,7 +41,7 @@ export default function SplashScreen({ onComplete }: IProps) {
         onComplete();
       }, 500);
       return () => clearTimeout(finalTimer);
-    }, 1400);
+    }, 2100);
 
     return () => {
       clearTimeout(textInTimer);
